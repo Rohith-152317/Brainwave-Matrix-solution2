@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cart - E-Commerce</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Your Cart</h1>
+    <a href="r.html">⬅ Back to Shop</a>
+  </header>
+
+  <main>
+    <div id="cart-items"></div>
+    <h2 id="total"></h2>
+
+    <div class="delivery-section">
+      <h3>Delivery Details</h3>
+      <form onsubmit="submitOrder(event)">
+        <input type="text" id="address" placeholder="Enter delivery address" required>
+        <select id="delivery-option">
+          <option value="standard">Standard Delivery (Free)</option>
+          <option value="express">Express Delivery ($10)</option>
+        </select>
+        <button type="submit">Place Order</button>
+      </form>
+    </div>
+  </main>
+
+  <script src="rrr.js"></script>
+</body>
+</html>
